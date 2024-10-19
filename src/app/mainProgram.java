@@ -88,10 +88,12 @@ public class mainProgram {
     }
 
     public void repeatString(String str, int count) {
-
+        String outputStr = "";
         for (int i = 0; i < count; i++) {
-            System.out.println(str);
+            outputStr = outputStr + str +"%n";
         }
+
+        System.out.printf(outputStr);
 
     }
 
